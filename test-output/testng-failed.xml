@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Jupiter Test Suite]">
+  <parameter name="browser" value="CHROME"/>
+  <test thread-count="5" parallel="methods" name="Sample Test for chrome parallel(failed)">
+    <classes>
+      <class name="com.planit.testcase.jupiterToys_Test">
+        <methods>
+          <include name="initialization"/>
+          <include name="testCase2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.planit.testcase.jupiterToys_Test -->
+    </classes>
+  </test> <!-- Sample Test for chrome parallel(failed) -->
+</suite> <!-- Failed suite [Jupiter Test Suite] -->
